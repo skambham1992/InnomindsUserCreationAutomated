@@ -1,0 +1,176 @@
+body {background-image: url(images/bg.jpg); overflow: auto !important;
+background-repeat: repeat; }
+
+.form-register { border: 2px solid #b9b9b9;background: rgba(128, 128, 128, 0.13); }
+.form-register .form-group input, .form-register .form-group select {border: 1px solid #b1b1b1; width: 90%; margin: 0px auto; display: table;    border-radius: 5px;
+    padding: 16px 15px; font-size: 14px; font-family: arial;}
+.form-register select {padding: 0px 15px !important; }
+.form-register h2 { font-size: 28px; line-height: 30px; padding-left: 25px; margin-bottom: 25px; }
+.registerbtns button { width: 85%; margin: 0px auto; display: table; }
+.form-register input::-webkit-input-placeholder, .form-register input[type="text"]::-webkit-input-placeholder, .form-register select::-webkit-input-placeholder {
+   color: #999;
+}
+
+.form-register:-moz-placeholder { /* Firefox 18- */
+   color: #000;  
+}
+
+.form-register::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;  
+}
+
+.form-register:-ms-input-placeholder {  
+   color: #000;  
+}
+
+
+
+
+.logo { width: 250px; height: auto; background: transparent;}
+.header-nav {min-height: 75px; border: 0px; border-bottom: 1px solid #d4d4d4; background: transparent;}
+.logout-text { padding-top: 15px; float: right; }
+.logout-text li { color: rgba(69, 78, 189, 0.63) }
+.page-starts { background-color: rgba(255, 255, 255, 0.7); height: 100%}
+.ldapusers-main { padding-top: 0px; }
+#logout { color: #ddd;    background-color:rgba(69, 78, 189, 0.63)}
+.login-title { color: #E84925; font-weight: 500;
+    border-bottom: 2px solid #E84925;
+    width: auto;
+    padding: 10px 0px; }
+.user-btn {     color: #fff;
+    background-color: #e84925;
+    border-color: #e84925;
+    border-radius: 0px;
+    font-weight: normal; margin-bottom: 10px;
+font-size: 15px; padding: 8px 15px; width: 180px;
+    border: 0px; }
+footer {border-top: 1px solid #d4d4d4; position: absolute; width: auto; bottom: 0px;
+padding: 10px 0px; }
+.designedby p { text-align: right;}
+.designedby p a { color: #e84925; }
+.user-btn a { text-decoration: none; color: #fff; }
+.logout-text li a { padding: 10px 15px; }
+.submitbtn button { float: right; background-color: #e84925;  border: 0px;
+border-radius: 0px; padding: 8px 15px;}
+.submitbtn button:hover { background-color: #e84925; }
+.disablebtn button { margin-top: 25px;}
+.innominds-head h2 { 
+MARGIN: 0px auto;
+    display: table;
+    background: #eaeaea;
+    padding: 12px 25px;
+    color: #E84925;
+    font-weight: bold;
+}
+.home-img img { width: 100%; }
+#banner { background-image: none !important; }
+.form-signin label { color: #444444; }
+#banner h5 {     color: #122e6d !important;   }
+footer p { color: #333;}
+.userid-box { margin-top: 25px; }
+.userid-box pre{ min-height: 80px; }
+.submitbtn1 button {     margin: 0px auto;
+    display: table;
+float: none; }
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  overflow: hidden;
+}
+html body .container {
+  overflow-y: auto;
+}
+.footer1 {  position: fixed;     width: 1160px !important;}
+footer {
+    position: static;
+    height: 40px;
+	    width: 100% !important;
+    background: transparent;
+    border-top: 0px;
+}
+.sendbtnbottom { min-height: 90px; }
+#accordion .acc_tab { display: none; }
+#accordion a {    width: 170px;
+    background: #e84925;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-bottom: thin solid #cecece;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;}
+.acc_submit { padding-right: 30px; }
+.acc_a { width: 100%; clear: both;}
+.user_name {     padding-right: 20px;
+    height: 34px;
+    line-height: 34px;
+    color: #ff5500;
+    font-weight: bold;
+font-size: 16px; }
+.output_text { border: 2px solid #666; }
+.output_text pre { margin: 0px auto;
+    display: table;
+    border: 0px;
+    background: transparent;
+    font-size: 14px !important;
+    line-height: 20px !important;
+font-weight: bold !important; }
+.output-btns { padding-bottom: 25px; }
+.output_texthead {    padding-top: 25px;
+text-align: center; }
+.registrationform select option { color: #666 !important; }
+.form-signin label { 
+	color: black;
+	font-size:18px;
+	font-weight:700;
+
+}
+legend
+{
+   text-align: left;
+    color: black !important;
+    font-weight: 700 !important;
+    font-size: 26px;
+}
+input#name {
+    color: black;
+}
+select#name{
+	color: #999;
+}
+.btn-success{
+	    background-color: #29d6c6 !important;
+	
+}
+.btn-danger{
+	
+	    background-color: #e05858 !important;
+}
+.inno-text { color: rgb(9, 72, 103) !important; }
+#banner h1 {color: #0a2b54 !important; }
+.form_main { float:right;}
+.hometop { margin-top:150px;}
+.entervalid {    color: #e84925; }
+.registrationform {    background: rgba(33, 33, 33, 0.78) !important; }
+
+@media screen and (min-width: 960px) {
+	footer { width: 960px; }
+}
+
+@media screen and (min-width: 1200px) {
+	footer { width: 1160px; }
+}
+@media screen and (max-width: 767px) {
+	footer { width: 100%; height: 60px; }
+	.disablebtn button { margin-top: 0px; }
+}
+@font-face {
+    font-family: opensansbold;
+    src: url(OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: opensansregular;
+    src: url(OpenSans-Regular.ttf);
+}
